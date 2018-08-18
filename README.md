@@ -16,7 +16,8 @@ Each record has 18 attributes:
 10. remaining_capacity: Remaining battery charge at time of injection date.
 11. design_voltage: Design voltage of the battery.
 12. batt_voltage: Battery voltage at the date of this record.
-13. cell_voltage1: Voltage of battery cell #1 at the date of this record. If the battery contains 2 cells then cell_voltage1 will be 0.  14. cell_voltage2: Voltage of battery cell #2 at the date of this record.
+13. cell_voltage1: Voltage of battery cell #1 at the date of this record. If the battery contains 2 cells then cell_voltage1 will be 0. 
+14. cell_voltage2: Voltage of battery cell #2 at the date of this record.
 15. cell_voltage3: Voltage of battery cell #3 at the date of this record.   
 16. cell_voltage4: Voltage of battery cell #4 at the date of this record. If the battery contains 2 cells, then cell_voltage4=0 AND cell_voltage1=0.
 17. status_register:  Status register of the battery at the date of this record.
